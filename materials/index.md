@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title: Materials
 permalink: /materials/
 tags: about
 ---
+
 
 There are some things and files you'll need...
 
@@ -13,35 +14,28 @@ Please get them! *This course only comes once!*
 
 ---
 
-### Syllabus
-
-* Grab it here!
+## [Syllabus: Read it Here!]({{ site.baseurl }}/course_files/syllabus/syllabus)
 
 ---
 
-### Discussions/Group Work
-
-* [lesson #1]({{ site.baseurl }}/course_files/truth/first_truth)
-* [lesson #2]({{ site.baseurl }}/course_files/quick_thinking)
+## [Discussions/Group Work]({{ site.baseurl }}/course_files/discussions)
 
 ---
 
-### Notes
-
-* March 2020
-* April 2020
-* and so on...
+## [Notes]({{ site.baseurl }}/course_files/notes)
 
 ---
 
-### Practice
-
-* number 1
-* number 2
-* number 3
+## [Practice]({{ site.baseurl }}/course_files/practice)
 
 ---
 
-### Your scores'
+## [Relax a Little]({{ site.baseurl }}/materials/calm_down)
+
+---
+
+## Your scores'
+
+<!-- feel free to edit here for the many exams or quizzes -->
 
 Overall the average was 70%, this was the target. Great work!

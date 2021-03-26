@@ -5,4 +5,6 @@ permalink: /about/
 tags: about
 ---
 
-Hello! I am a person here on earth. It's been some time here! I've seen lots of cool and warm things. Life's not easy on earth, but if you make the effort, you might like it more than elsewhere. This is just a place for some cool files and announcements. Hope you enjoy. 
+Hello! This is the spot where you put your name and other information. Anything you think is relevant to what you are showing others.
+
+Take it easy. This is just a chill place to share the genuine you! Your hobbies, interests and other cool things about you. Don't overthink it!

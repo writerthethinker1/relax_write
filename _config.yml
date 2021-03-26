@@ -1,5 +1,5 @@
 # Site settings
-title:       "Matrix Algebra: Basics"
+title:       "Critical Thinking: Stats" #the title of your course
 email:       ramneeknarayan@gmail.com #your personal email for contact, edit as you wish
 author:      Ramneek Narayan #change to your name, e.g. bill stevens
 description: "a site about relaxing 101, how to do it well so you can do better later."
@@ -31,6 +31,12 @@ extended_fonts: false
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: false
+
+collections:
+  practice:
+    output: true
+  discussions:
+    output: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)
