@@ -17,7 +17,14 @@ You'll find here notes for the course, all free to download and share!
   {% assign uploads = site.static_files | where: item.reference, true %}
   <ul>
   {% for myuploads in uploads %}
+    {% if item.reference == 'discussion_notes' %}
+      {% for thing in site.discussion_solutions %}
+        <li><h3><a href="{{ thing.url | relative_url }}">{{ thing.title }}</a></h3></li>
+      {% endfor %}
       <li><h3><a href= "{{ site.baseurl }}/{{ myuploads.path }}">{{ myuploads.basename }}</a></h3></li>
+    {% else %}
+      <li><h3><a href= "{{ site.baseurl }}/{{ myuploads.path }}">{{ myuploads.basename }}</a></h3></li>
+    {% endif %}
   {% endfor %}
   </ul>
   <hr/>

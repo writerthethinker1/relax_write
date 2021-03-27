@@ -37,6 +37,8 @@ collections:
     output: true
   discussions:
     output: true
+  discussion_solutions:
+    output: true
   musings:
     output: true
   your_scores:

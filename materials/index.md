@@ -2,7 +2,6 @@
 layout: post
 title: Materials
 permalink: /materials/
-tags: about
 ---
 
 
