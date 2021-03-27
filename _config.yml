@@ -37,6 +37,34 @@ collections:
     output: true
   discussions:
     output: true
+  musings:
+    output: true
+  your_scores:
+    output: true
+
+# for static files (things like articles, books, extra_things, week_notes)
+
+defaults:
+  - scope:
+      path: "materials/course_files/notes/books"
+    values:
+      book: true #all files in the books folder have the 'book' frontmatter as true, as if
+  - scope:
+      path: "materials/course_files/notes/articles"
+    values:
+      article: true
+  - scope:
+      path: "materials/course_files/notes/extra_things"
+    values:
+      extra: true
+  - scope:
+      path: "materials/course_files/notes/week_notes"
+    values:
+      week_notes: true
+  - scope:
+      path: "materials/course_files/notes/discussion_notes"
+    values:
+      discussion_notes: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)

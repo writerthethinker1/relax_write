@@ -1,0 +1,23 @@
+materials_list_title: Course Materials
+structure:
+
+- title: 'Syllablus: Read it Here!'
+  url: course_files/syllabus
+
+- title: Discussions
+  url: course_files/discussions
+
+- title: Notes
+  url: course_files/notes
+
+- title: Practice
+  url: course_files/practice
+
+- title: Musings
+  url: course_files/musings
+
+- title: 'Relax a Little'
+  url: course_files/calm_down
+
+- title: 'Your Scores'
+  url: course_files/your_scores

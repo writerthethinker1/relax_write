@@ -1,0 +1,17 @@
+notes_list_title: 'Notes'
+structure:
+
+- title: 'Weekly Notes'
+  reference: 'week_notes'
+
+- title: 'Discussion Notes/Solutions'
+  reference: 'discussion_notes'
+
+- title: 'Books'
+  reference: 'book'
+
+- title: 'Articles'
+  reference: 'article'
+
+- title: 'Extra Things'
+  reference: 'extra'
