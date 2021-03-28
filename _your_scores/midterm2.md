@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Midterm 2'
+type: 'midterm_scores'
 date: 2021-03-24
 ---
 

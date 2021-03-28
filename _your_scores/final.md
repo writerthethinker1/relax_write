@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Final'
+type: 'final_scores'
 date: 2021-03-26
 ---
 
@@ -44,4 +45,4 @@ That's about it for the errors! Congrats on making it this far with critical thi
 
 Later!
 
-(just for illustration or seeing how things look.) 
+(just for illustration or seeing how things look.)

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 'Solution 1'
+title: 'Discussion 1 Solutions'
+type: "discussion_stuff"
 ---
 
 <!-- solutions are easier to write in markdown! -->

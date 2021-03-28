@@ -2,7 +2,6 @@
 layout: page
 title: About Me
 permalink: /about/
-tags: about
 ---
 
 Hello! This is the spot where you put your name and other information. Anything you think is relevant to what you are showing others.

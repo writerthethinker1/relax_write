@@ -2,7 +2,6 @@
 layout: page
 title: Contact Me
 permalink: /contact/
-tags: contact
 ---
 
 

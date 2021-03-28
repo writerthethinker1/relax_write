@@ -3,7 +3,7 @@ title:       "Critical Thinking: Stats" #the title of your course
 email:       ramneeknarayan@gmail.com #your personal email for contact, edit as you wish
 author:      Ramneek Narayan #change to your name, e.g. bill stevens
 description: "a site about relaxing 101, how to do it well so you can do better later."
-baseurl:     "/relax_write/" #change the base url to your class title (name of git repo), e.g. /relax_101/
+baseurl:     "/relax_write/" #change the base url to your class title (name of git repo), e.g. /relax_101/ or /math123/
 url:         "https://writerthethinker1.github.io" #change the url to
 # your 'https://github_username.github.io'
 date_format: "%b %-d, %Y"
@@ -37,7 +37,7 @@ collections:
     output: true
   discussions:
     output: true
-  discussion_solutions:
+  solutions:
     output: true
   musings:
     output: true
@@ -46,6 +46,7 @@ collections:
 
 # for static files (things like articles, books, extra_things, week_notes)
 
+#if you don't want any folders or don't use them, comment out them here!, you can also make your own static file collections too.
 defaults:
   - scope:
       path: "materials/course_files/notes/books"
@@ -64,9 +65,21 @@ defaults:
     values:
       week_notes: true
   - scope:
-      path: "materials/course_files/notes/discussion_notes"
+      path: "materials/course_files/notes/discussion_stuff"
     values:
-      discussion_notes: true
+      discussion_stuff: true
+  - scope:
+      path: "materials/course_files/notes/exam_solutions"
+    values:
+      exam_solutions: true
+  - scope:
+      path: "materials/course_files/notes/practice_solutions"
+    values:
+      practice_solutions: true
+  - scope:
+      path: "materials/course_files/notes/labs"
+    values:
+      labs: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)

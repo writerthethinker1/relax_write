@@ -3,15 +3,32 @@ structure:
 
 - title: 'Weekly Notes'
   reference: 'week_notes'
+  markdown: false
 
-- title: 'Discussion Notes/Solutions'
-  reference: 'discussion_notes'
+- title: 'Discussion Solutions/Handouts'
+  reference: 'discussion_stuff'
+  markdown: true
+
+- title: 'Practice Problem Solutions'
+  reference: 'practice_solutions'
+  markdown: true
+
+- title: 'Exam Solutions'
+  reference: 'exam_solutions'
+  markdown: true
+
+- title: 'Labs'
+  reference: 'labs'
+  markdown: false
 
 - title: 'Books'
   reference: 'book'
+  markdown: false
 
 - title: 'Articles'
   reference: 'article'
+  markdown: false
 
 - title: 'Extra Things'
   reference: 'extra'
+  markdown: false

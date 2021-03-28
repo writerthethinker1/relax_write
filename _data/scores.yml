@@ -1,0 +1,11 @@
+notes_list_title: 'Scores'
+structure:
+
+- title: 'Practice Scores'
+  reference: 'practice_scores'
+
+- title: 'Midterm Scores'
+  reference: 'midterm_scores'
+
+- title: 'Final Scores'
+  reference: 'final_scores'
