@@ -8,5 +8,7 @@ tag: scores
 
 The Scores for the first midterm are up! Overall not bad, but I don't really look until finals. Plus, I don't even write the midterms all the way. It's a collection of what we think you guys should know. No worries if it's too much! Time comes and goes, all is the same. At least, that's how I thought about it when I didn't do too well in the past!
 
+The solutions are also up as well! They are...in the Notes section!  
+
 
 (Just a use of the announcements function.)

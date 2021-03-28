@@ -37,7 +37,7 @@ collections:
     output: true
   discussions:
     output: true
-  solutions:
+  markdown_notes:
     output: true
   musings:
     output: true
@@ -49,35 +49,39 @@ collections:
 #if you don't want any folders or don't use them, comment out them here!, you can also make your own static file collections too.
 defaults:
   - scope:
-      path: "materials/course_files/notes/books"
+      path: "notes_upload/books"
     values:
       book: true #all files in the books folder have the 'book' frontmatter as true, as if
   - scope:
-      path: "materials/course_files/notes/articles"
+      path: "notes_upload/articles"
     values:
       article: true
   - scope:
-      path: "materials/course_files/notes/extra_things"
+      path: "notes_upload/extra_things"
     values:
       extra: true
   - scope:
-      path: "materials/course_files/notes/week_notes"
+      path: "notes_upload/week_notes"
     values:
       week_notes: true
   - scope:
-      path: "materials/course_files/notes/discussion_stuff"
+      path: "notes_upload/discussion_stuff"
     values:
       discussion_stuff: true
   - scope:
-      path: "materials/course_files/notes/exam_solutions"
+      path: "notes_upload/exam_solutions"
     values:
       exam_solutions: true
   - scope:
-      path: "materials/course_files/notes/practice_solutions"
+      path: "notes_upload/practice_solutions"
     values:
       practice_solutions: true
   - scope:
-      path: "materials/course_files/notes/labs"
+      path: "notes_upload/study_guides"
+    values:
+      study_guides: true
+  - scope:
+      path: "notes_upload/labs"
     values:
       labs: true
 

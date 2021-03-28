@@ -11,26 +11,11 @@ You'll find here notes for the course, all free to download and share!
 
 <!-- in the notes folder, you can put all the uploaded files you want, it will put the links! if you have a new folder or topic, make it in the notes folder and modify the _data/notes.yml accordingly as well as the collections in _config.yml -->
 
-<!-- note: you can have all the solutions in .md form too! if it's easier to write that way, just put them in the collections folders: _solutions, just make sure they have a type: '...' as in the notes.yml 'reference' part. then, they'll show up in the notes section. -->
+<!-- note: you can have all the solutions in .md form too! if it's easier to write that way, just put them in the collections folders: _markdown_alternatives, just make sure they have a type: '...' as in the notes.yml 'reference' part. then, they'll show up in the notes section. -->
 
 <div>
 {% for item in site.data.notes.structure %}
-  <h2>{{ item.title }}</h2>
-  {% assign uploads = site.static_files | where: item.reference, true %}
-  <ul>
-  {% for myuploads in uploads %}
-    {% if item.markdown == true %}
-      {% for thing in site.solutions %}
-        {% if thing.type == item.reference %}
-          <li><h3><a href="{{ thing.url | relative_url }}">{{ thing.title }}</a></h3></li>
-        {% endif %}
-      {% endfor %}
-      <li><h3><a href= "{{ site.baseurl }}/{{ myuploads.path }}">{{ myuploads.basename }}</a></h3></li>
-    {% else %}
-      <li><h3><a href= "{{ site.baseurl }}/{{ myuploads.path }}">{{ myuploads.basename }}</a></h3></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
+  <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
   <hr/>
 {% endfor %}
 </div>

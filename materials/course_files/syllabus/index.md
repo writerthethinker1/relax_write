@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: page
 title: 'Syllabus'
 date: '2021-03-16'
 ---
 
-<!-- you can put your syllabus here... -->
+<!-- you can put your syllabus here...just note the date you updated it last in the yml, change it accordingly year-month-day, just for rendering -->
+
+<span style="color:orange">Last Update: {{ page.date | date: "%b %-d, %Y" }}</span>
 
 Hello and welcome to the basics of statistical critical thinking! We think you'll have a great time investigating old statistical problems from a critical perspective.
 

@@ -5,7 +5,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 {% for post in site.tags[page.tag] %}
-<span style="margin-right:2px">{{ post.date | date: "%b %Y" }}</span> | <a href="{{ site.baseurl }}{{ post.url }}" class="post-meta">{{ post.title }}</a><br>
+<span style="margin-right:2px">{{ post.date | date: "%b %d, %Y" }}</span> | <a href="{{ site.baseurl }}{{ post.url }}" class="post-meta">{{ post.title }}</a><br>
     {{ post.description }}
 {% endfor %}
 <hr>
