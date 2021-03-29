@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      'Office Hours Change'
-date:       2021-02-26
+date:       2021-03-11
 summary: 'New Location! New Time!'
 tag: office_hours
 ---
@@ -10,4 +10,4 @@ Guys, the office hours have changed since other people need the room for their o
 
 If you show up to the old one, no one's going to be there.
 
-Thanks! 
+Thanks!

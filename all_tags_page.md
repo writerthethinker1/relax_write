@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcement Tags
+title: All Announcement Tags
 permalink: /tags/
 ---
 

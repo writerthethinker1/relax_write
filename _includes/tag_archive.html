@@ -1,12 +1,19 @@
-<h2>Tag Archive</h2>
+<h2>All Announcement Tags</h2>
+<hr/>
+<div>
 {% capture temptags %}
+
   {% for tag in site.tags %}
     {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+<ul>
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <h3><a href="{{ site.baseurl }}/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></h3>
+  <li><h3><a href="{{ site.baseurl }}/tag/{{ tagname }}"><nobr>{{ tagname }}</nobr></a></h3></li>
 {% endfor %}
+</ul>
+</div>
+<hr/>

@@ -7,9 +7,7 @@ baseurl:     "/relax_write/" #change the base url to your class title (name of g
 url:         "https://writerthethinker1.github.io" #change the url to
 # your 'https://github_username.github.io'
 date_format: "%b %-d, %Y"
-# header_pages:
-#  - about.md
-#  - contact.html
+theme_colour: blue
 
 # # Google services
 # google_verification:

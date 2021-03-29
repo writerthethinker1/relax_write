@@ -8,5 +8,7 @@ layout: default
 <span style="margin-right:2px">{{ post.date | date: "%b %d, %Y" }}</span> | <a href="{{ site.baseurl }}{{ post.url }}" class="post-meta">{{ post.title }}</a><br>
     {{ post.description }}
 {% endfor %}
+<br>
+<div><i>Keep up to date with the announcements! Know what's going on as time passes.</i></div>
 <hr>
-{% include tag_archive.html %}
+<h2><a href="{{ site.baseurl }}/tags">All Announcement Tags</a></h2>
