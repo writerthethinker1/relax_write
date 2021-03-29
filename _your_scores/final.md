@@ -3,6 +3,7 @@ layout: post
 title: 'Final'
 type: 'final_scores'
 date: 2021-03-26
+published: true
 ---
 
 Looks like finals are over and graded! As an average this time around was....

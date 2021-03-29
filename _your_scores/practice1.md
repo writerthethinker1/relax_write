@@ -3,6 +3,7 @@ layout: post
 title: 'Practice 1'
 type: 'practice_scores'
 date: 2021-03-01
+published: true
 ---
 
 Overall the first set of practice problems went great! The first problem had many intuitive guesses as well as other features that were new. The sets are graded online on some grading platform so you can check them at your leisure.

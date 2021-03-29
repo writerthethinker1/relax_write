@@ -1,51 +1,42 @@
 notes_list_title: 'Notes'
 structure:
 
-#if you want markdown files in any of the notes subsections, just change the false to true and make sure the files you want uploaded go to the _solutions folder with the type: 'reference' in the yml
 
-# also the 'type' feature in the files in the _markdown_notes folder has to match the 'reference' part here for the file to show up in the right page, don't leave it out, the example files given all have them. 
+
+# also the 'type' feature in the files in the _markdown_notes folder has to match the 'reference' part here for the file to show up in the right page, don't leave it out, the example files given all have them.
 
 - title: 'Weekly Notes'
   reference: 'week_notes'
   url: 'week_notes'
-  markdown: false
 
 - title: 'Discussion Solutions/Handouts'
   reference: 'discussion_stuff'
   url: 'discussion_stuff'
-  markdown: true
 
 - title: 'Practice Problem Solutions'
   reference: 'practice_solutions'
   url: 'practice_solutions'
-  markdown: true
 
 - title: 'Exam Solutions'
   reference: 'exam_solutions'
   url: 'exam_solutions'
-  markdown: true
 
 - title: 'Study Guides'
   reference: 'study_guides'
   url: 'study_guides'
-  markdown: true
 
 - title: 'Labs'
   reference: 'labs'
   url: 'labs'
-  markdown: false
 
 - title: 'Books'
   url: 'books'
   reference: 'book'
-  markdown: false
 
 - title: 'Articles'
   url: 'articles'
   reference: 'article'
-  markdown: false
 
 - title: 'Extra Things'
   url: 'extra_things'
   reference: 'extra'
-  markdown: false

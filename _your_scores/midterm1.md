@@ -3,6 +3,7 @@ layout: post
 title: 'Midterm 1'
 type: 'midterm_scores'
 date: 2021-03-20
+published: true
 ---
 
 The first midterm was nice, you guys seemed to have understood most of the problems. The average was 70% which is nice. For those of you who didn't do so well, you can still do better, just make sure you go ask for help or come to us as tell us where you aren't exactly the clearest. Do it now while things are early! Later, it might not be so.

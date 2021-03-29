@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'Articles'
+comments: "These are just articles about things related to what's being learned. They aren't essential, but if you're curious; feel free to read up. They're here for your leisure and oftentimes concepts need more explanation. Hope this clears things up or expands how you see things. You don't have to though."
 ---
 
-These are just articles about things related to what's being learned. They aren't essential, but if you're curious; feel free to read up. They're here for your leisure and oftentimes concepts need more explanation. Hope this clears things up or expands how you see things. You don't have to though.
+{{ page.comments }}
 
 <div>
 {% for thing in site.markdown_notes %}

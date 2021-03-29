@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Notes
+comments: "You'll find here notes for the course, all free to download and share! Share the joy of learning!"
 ---
 
-You'll find here notes for the course, all free to download and share!
+{{ page.comments }}
 
 <span style="color:orange">Enjoy learning new things!<span>
 

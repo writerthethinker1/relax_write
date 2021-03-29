@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Discussions
+comments: "Here are all the files for discussions! We hope you enjoy them. We put hard effort into them, well designed."
 ---
 
 <!-- this liquid part is just to extract the date of the last discussion -->
-{% for thing in site.discussions %}
-  {% if forloop.last %}
+{% for thing in site.discussions reversed %}
   {% assign last_update = thing.date | date: site.date_format %}
-  {% endif %}
+  {% break %}
 {% endfor %}
 
-Here are all the files for discussions! We hope you enjoy them. We put hard effort into them, well designed.
+{{ page.comments }}
 
 <span style="color:orange">Last Update: {{ last_update }}</span>
 

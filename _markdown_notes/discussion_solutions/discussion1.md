@@ -2,6 +2,7 @@
 layout: post
 title: 'Discussion 1 Solutions'
 type: "discussion_stuff"
+published: true
 ---
 
 <!-- solutions are easier to write in markdown! -->

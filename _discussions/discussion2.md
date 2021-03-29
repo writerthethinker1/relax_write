@@ -2,6 +2,7 @@
 layout: post
 title: Discussion 2
 date: '2021-03-21'
+published: true
 ---
 
 Welcome to the second discussion! This time we have some set of problems based on what's been said in class lately. You can check the book too if you are stuck or just ask me later or during. Let's begin!

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'Study Guides'
+comments: "Before each exam, there's a study guide which is a set of common things as well as a set of problems to get us acquainted on what to do in the time period. You guys will do great!"
 ---
 
-Before each exam, there's a study guide which is a set of common things as well as a set of problems to get us acquainted on what to do in the time period. You guys will do great!  
+{{ page.comments }}
 
 <div>
 {% for thing in site.markdown_notes %}

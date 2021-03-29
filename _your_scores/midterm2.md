@@ -2,7 +2,8 @@
 layout: post
 title: 'Midterm 2'
 type: 'midterm_scores'
-date: 2021-03-24
+date: 2021-03-25
+published: true
 ---
 
 I have some good news, and then I have some bad news.
