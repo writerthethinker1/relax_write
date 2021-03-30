@@ -1,12 +1,34 @@
 # Site settings
 title:       "Critical Thinking: Stats" #the title of your course
 email:       ramneeknarayan@gmail.com #your personal email for contact, edit as you wish
-author:      Ramneek Narayan #change to your name, e.g. bill stevens
+author:      'Ramneek Narayan' #change to your name, e.g. bill stevens
 description: "a site about relaxing 101, how to do it well so you can do better later."
 baseurl:     "/relax_write/" #change the base url to your class title (name of git repo), e.g. /relax_101/ or /math123/
 url:         "https://writerthethinker1.github.io" #change the url to
 # your 'https://github_username.github.io'
 date_format: "%b %-d, %Y"
+
+# easy links to reference them in any post or article, just use [name of link]({{ site.[link] | relative_url }})
+
+images: 'images'
+syllabus: 'materials/course_files/syllabus'
+discussion_link: 'materials/course_files/discussions'
+notes: 'materials/course_files/notes'
+musings_link: 'materials/course_files/musings'
+practice_link: 'materials/course_files/practice'
+calm_down: 'materials/course_files/calm_down'
+your_scores_link: 'materials/course_files/your_scores'
+week_notes: 'materials/course_files/notes/week_notes'
+discussion_stuff: 'materials/course_files/notes/discussion_stuff'
+practice_solutions: 'materials/course_files/notes/practice_solutions'
+exam_solutions: 'materials/course_files/notes/exam_solutions'
+study_guides: 'materials/course_files/notes/study_guides'
+labs: 'materials/course_files/notes/labs'
+books: 'materials/course_files/notes/books'
+articles: 'materials/course_files/notes/articles'
+extra_things: 'materials/course_files/notes/extra_things'
+
+
 
 # # Google services
 # google_verification:
@@ -121,7 +143,7 @@ defaults:
 #share_facebook: false
 #share_twitter: false
 #share_googleplus: false
-#share_linkedin: false
+#shareedin: false
 #share_digg: false
 #share_tumblr: false
 #share_reddit: false

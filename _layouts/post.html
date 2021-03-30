@@ -15,10 +15,14 @@ layout: default
     <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span>
   {% endif %}
   <span>
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    | <a href="{{ site.baseurl }}tag/{{ tag_name }}" class="post-meta">{{ tag_name }}</a>
- {% endfor %}
+  {% assign total_tags = page.tags | size %}
+    {% if total_tags > 0 %}
+    |
+      {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="{{ site.baseurl }}tag/{{ tag_name }}" class="post-meta">+{{ tag_name }}</a>
+     {% endfor %}
+   {% endif %}
     </span>
   <span class="post-meta small">
   <!-- {% if page.minutes %}
