@@ -63,3 +63,4 @@ But, I do share my personal tips for learning, I hope collectively they help oth
 5. find one question about what you've learned
 6. tie it all back to the place you live as well as life in general
 7. be okay with failing or being wrong!!! (wise people are).
+8. connect an idea with another subject

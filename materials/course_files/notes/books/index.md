@@ -2,6 +2,7 @@
 layout: post
 title: 'Books'
 comments: "Some books for the course, all freely available to you. I write the problems for the course, so the book problems aren't graded and we're not trying to 'hunt and peck' looking for answers for the next set."
+published: true
 ---
 
 {{ page.comments }}

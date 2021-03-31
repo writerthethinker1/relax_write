@@ -2,6 +2,7 @@
 layout: post
 title: 'Labs'
 comments: "Instructions for the labs and what you guys will be doing over the next couple of cozy weeks are given here. Don't worry so much about them rather than what they are about and tie it back to what we've been illustrating the weeks before the lab. **Try to like one thing at least.** It makes a world of difference."
+published: true
 ---
 
 {{ page.comments }}

@@ -5,38 +5,63 @@ structure:
 
 # also the 'type' feature in the files in the _markdown_notes folder has to match the 'reference' part here for the file to show up in the right page, don't leave it out, the example files given all have them.
 
+# if your class doesn't use some of the things here, like labs, extra things or coding, change the truth value in the 'show:' part of the yml to 'false'
+
+# be sure to unpublish the homepage for the respective notes section to prevent the webpage from generating..., or just delete the parts in the _config.yml, here, and folders in the notes_upload, notes section for the part you don't need to the class, either way works
+
+# the order you put things is the order it appears...
+
 - title: 'Weekly Notes'
   reference: 'week_notes'
   url: 'week_notes'
+  show: true
 
 - title: 'Discussion Solutions/Handouts'
   reference: 'discussion_stuff'
   url: 'discussion_stuff'
+  show: true
 
 - title: 'Practice Problem Solutions'
   reference: 'practice_solutions'
   url: 'practice_solutions'
+  show: true
+
+- title: "Quiz Solutions"
+  reference: "quiz_solutions"
+  url: "quiz_solutions"
+  show: true
 
 - title: 'Exam Solutions'
   reference: 'exam_solutions'
   url: 'exam_solutions'
+  show: true
 
 - title: 'Study Guides'
   reference: 'study_guides'
   url: 'study_guides'
+  show: true
 
 - title: 'Labs'
   reference: 'labs'
   url: 'labs'
+  show: true
+
+- title: 'Code/Coding'
+  reference: 'coding'
+  url: 'coding'
+  show: true
 
 - title: 'Books'
   url: 'books'
   reference: 'book'
+  show: true
 
 - title: 'Articles'
   url: 'articles'
   reference: 'article'
+  show: true
 
 - title: 'Extra Things'
   url: 'extra_things'
   reference: 'extra'
+  show: true

@@ -10,7 +10,7 @@ date_format: "%b %-d, %Y"
 
 # easy links to reference them in any post or article, just use [name of link]({{ site.[link] | relative_url }})
 
-images: 'images'
+images: 'images' #feel free to add custom image paths, like images/stats, images/discussion_things, images/coding, images/finals, images/your_scores/midterm1, images/practice_problems and so on...
 syllabus: 'materials/course_files/syllabus'
 discussion_link: 'materials/course_files/discussions'
 notes: 'materials/course_files/notes'
@@ -22,6 +22,7 @@ week_notes: 'materials/course_files/notes/week_notes'
 discussion_stuff: 'materials/course_files/notes/discussion_stuff'
 practice_solutions: 'materials/course_files/notes/practice_solutions'
 exam_solutions: 'materials/course_files/notes/exam_solutions'
+quiz_solutions_link: 'materials/course_files/notes/quiz_solutions'
 study_guides: 'materials/course_files/notes/study_guides'
 labs: 'materials/course_files/notes/labs'
 books: 'materials/course_files/notes/books'
@@ -103,6 +104,15 @@ defaults:
       path: "notes_upload/labs"
     values:
       labs: true
+  - scope:
+      path: "notes_upload/coding"
+    values:
+      coding: true
+  - scope:
+      path: "notes_upload/quiz_solutions"
+    values:
+      quiz_solutions: true
+
 
 # Facebook Page integration
 # (for instant articles and other stuff)

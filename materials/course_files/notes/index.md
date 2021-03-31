@@ -16,7 +16,9 @@ comments: "You'll find here notes for the course, all free to download and share
 
 <div>
 {% for item in site.data.notes.structure %}
+  {% if item.show == true %}
   <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
   <hr/>
+  {% endif %}
 {% endfor %}
 </div>

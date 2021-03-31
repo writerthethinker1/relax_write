@@ -2,6 +2,7 @@
 layout: post
 title: 'Week Notes'
 comments: "These are the notes for the week, they cover the in detail of what's done in person during class. They might be more in depth, but it might help later in future endeavors. Know that the important concepts are covered in class. Generally, things in the appendix aren't given nor expected to be recalled in a paper exam, but you're more than welcome to learn. You might find them useful when help isn't always there, you're on a tough problem, or you'd just like to learn more."
+published: true
 ---
 
 {{ page.comments }}

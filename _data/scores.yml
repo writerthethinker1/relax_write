@@ -1,12 +1,20 @@
 notes_list_title: 'Scores'
 structure:
 
+# if your class doesn't have practice problems, quizzes, midterms, or finals, you can set the 'show' part to 'false' to not have the header appear in the 'your_scores' section, or just take out the whole thing in the yml, more instructions about class customisation in the README.md, it's a whole guide!
+
 - title: 'Practice Scores'
   reference: 'practice_scores'
+  show: true
+
+- title: "Quiz Scores"
+  reference: "quiz_scores"
+  show: true
 
 - title: 'Midterm Scores'
   reference: 'midterm_scores'
+  show: true
 
 - title: 'Final Scores'
   reference: 'final_scores'
-  
+  show: true

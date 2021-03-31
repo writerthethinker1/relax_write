@@ -2,6 +2,7 @@
 layout: post
 title: 'Discussion Stuff'
 comments: "Discussion solutions, handouts, and other related material are all here. It's nice to collaborate with others for answers since the work life is actually like this. Plus, you guys learn skills about communication."
+published: true
 ---
 
 {{ page.comments }}

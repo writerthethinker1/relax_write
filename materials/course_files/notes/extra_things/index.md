@@ -2,6 +2,7 @@
 layout: post
 title: 'Extra Things'
 comments: "These are just some extra things, not entirely needed, but as we keep going along certain topics have more explanations and new work. Read at your leisure..."
+published: true
 ---
 
 {{ page.comments }}
