@@ -11,6 +11,10 @@ structure:
   reference: "quiz_scores"
   show: true
 
+- title: "Lab Scores"
+  reference: "lab_scores"
+  show: true
+
 - title: 'Midterm Scores'
   reference: 'midterm_scores'
   show: true
