@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--math support-->
 <script type="text/x-mathjax-config">
  MathJax.Hub.Config({
-   extensions: ["tex2jax.js"],
+   extensions: ["tex2jax.js", "[Contrib]/mhchem/mhchem.js", "[Contrib]/physics/physics.js", "[Contrib]/siunitx/siunitx.js", "[MathJax]/extensions/TeX/cancel.js"],
    tex2jax: {
      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
@@ -47,7 +47,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     ind: "\\perp\\!\\!\\!\\perp",
                     nind: "\\perp\\! \\! \\! \\perp \\! \\! \\! \\! \\! \\!/ \\ \\",
                     cov: "\\text{Cov}",
-                    Bin: "\\text{Bin}"}}
+                    Bin: "\\text{Bin}",
+                    sample: ["#1_1,...,#1_#2", 2],
+                    P: "\\mathbb{P}",
+                    E: "\\mathbb{E}",
+                    N: "\\mathcal{N}",
+                    I: "\\mathcal{I}",
+                    impl: "\\Rightarrow",
+                    var: "\\text{Var}",
+                    lset: "\\left \\lbrace",
+                    rset: "\\right \\rbrace",
+                    set: ["\\left \\lbrace #1 \\right \\rbrace", 1],
+                    sor: "\\cup",
+                    sand: "\\cap",
+                    cor: "\\text{Corr}",
+                    Li: "\\mathcal{L}",
+                    li: "\\ell",
+                    add: ["#1_{1} + #1_2 + \\dots + #1_{#2}", 2],
+                    mult: ["#1_1#1_2\\dots#1_{#2}", 2],
+                    bs: ["\\sum_{#1 = #2}^{#3}", 3],
+                    bel: ["\\underbrace{#1}_{#2}", 2],
+                    geom: "\\text{Geometric}",
+                    mode: "\\text{Mode}",
+                    med: "\\text{Median}",
+                    mx: ["\\max \\left \\lbrace #1 \\right \\rbrace", 1],
+                    pois: "\\text{Pois}",
+                    bern: "\\text{Bernoulli}",
+                    gam: "\\text{Gamma}",
+                    Be: "\\text{Beta}",
+                    al: "\\alpha",
+                    be: "\\beta",
+                    ga: "\\gamma",
+                    de: "\\delta",
+                    ep: "\\epsilon",
+                    lam: "\\lambda",
+                    sig: "\\sigma"}}
  });
 </script>
 <script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
