@@ -75,7 +75,25 @@ $$
 
 ### Sets and Things
 
-If you want to write a set use the `\set{..}` macro to give things like $\set{1, 4, 2}$ and if you want to join or find the intersection of the sets, then use the `\sor` and `\sand` macros to give respectively $\sor$ and $\sand$. These are also useful for anti-commutators too! For the opening and ending of a set, you can also use `\lset` and `\rset` to have the opening and closing of set respectively: $\lset$ and $\rset$. and If you want to talk about a set's cardinality, you can have `\card{..}` to give $\card{A} = 4$. For things like minimum and maximum, you can use the `\mn{..}` and `\mx{..}` macros to yield $\mn{g(x)}$ and $\mx{y(s)}$ respectively. If you have domains or constraints, they can be subscripts like `\mn{..}_{..}` for $\mn{x(y)}_D$ over domain $D$. For the logical operation 'implies', you can use `\impl` as a macro for `\Rightarrow` that gives $\impl$. If you like writing definitions symbolically, there is also a `\as` macro that gives $\as$. Writing out a definition is more like $A \as \set{1, 3, 5}$ (see the .md file to see how it flows). 
+If you want to write a set use the `\set{..}` macro to give things like $\set{1, 4, 2}$ and if you want to join or find the intersection of the sets, then use the `\sor` and `\sand` macros to give respectively $\sor$ and $\sand$. These are also useful for anti-commutators too! For the opening and ending of a set, you can also use `\lset` and `\rset` to have the opening and closing of set respectively: $\lset$ and $\rset$. and If you want to talk about a set's cardinality, you can have `\card{..}` to give $\card{A} = 4$. For things like minimum and maximum, you can use the `\mn{..}` and `\mx{..}` macros to yield $\mn{g(x)}$ and $\mx{y(s)}$ respectively. If you have domains or constraints, they can be subscripts like `\mn{..}_{..}` for $\mn{x(y)}_D$ over domain $D$. For the logical operation 'implies', you can use `\impl` as a macro for `\Rightarrow` that gives $\impl$. If you like writing definitions symbolically, there is also a `\as` macro that gives $\as$. Writing out a definition is more like $A \as \set{1, 3, 5}$ (see the .md file to see how it flows).
+
+If you want to write a sum easily you can use the `\sum{..}{..}{..}` macro to indicate the variable, starting index, and ending index. It's used to write the formula below:
+
+$$
+\bs{x}{1}{\infty} \frac{1}{x} = \infty
+$$
+
+Also, if you want to write below any formula you have, you can use the `\bel{..}{..}` to indicate what you want the formula to be as well as what you want underneath it. For example if we wanted to label the sum as a series, we can have:
+
+$$
+\bel{\bs{x}{1}{\infty} \frac{1}{x}}{\text{series}} = \infty
+$$
+
+For the sets commonly used in mathematics to indicate numbers, we have `\R`, `\Nat`, `\S`, `\O`, `\Q`, `\C`, `\H`, `\Z`. Given below for your convenience.
+
+$$
+\R \ \ \Nat \ \ \S \ \ \O \ \ \Q \ \ \C \ \ \H \ \ \Z
+$$
 
 ### Greek Letters
 

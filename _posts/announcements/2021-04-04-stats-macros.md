@@ -50,9 +50,3 @@ $$
 $$
 
 For order statistics, there is `\ord{..}{..}` that gives $\ord{Y}{5}$.
-
-<!-- $$
-\R\\ % real numbers
-\bs{x}{3}{22}\\ %basic sum from x = 3 to 22
-\bel{A + D}{f(x)}\\ %putting things below a function or for explanation
-$$ -->
