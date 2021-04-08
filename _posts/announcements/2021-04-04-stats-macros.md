@@ -43,6 +43,18 @@ $$
 \Bin \ \ \N \ \ \geom \ \ \pois \ \ \bern \ \ \gam \ \ \Beta \ \ \expo \ \ \hypgeo \ \ \nbin \ \ \cauchy \ \ \pareto
 $$
 
+We have also included macros for the p.d.fs and c.d.fs for the distributions given above for easy typing. For example, the density of the binomial distribution is given as
+
+$$
+\Bind{p}{n}{x}
+$$
+
+and we can have 1 value of it with $n = 20$, $p = 0.3$, and $x = 3$ as
+
+$$
+f(3) = \Bind{0.3}{20}{3}
+$$
+
 For summary statistics like those in the Tukey's 5 number summary, we have the macros `\fqt`, `\iqr`, `\Min`, `\Max`, `\tqt`, `\Med` as well as the mode with `\mode` and general quantile `\qt{..}{..}`. All of which give respectively:
 
 $$

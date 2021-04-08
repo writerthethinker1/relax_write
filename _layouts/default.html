@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--math support-->
 <script type="text/x-mathjax-config">
  MathJax.Hub.Config({
-   extensions: ["tex2jax.js", "[Contrib]/mhchem/mhchem.js", "[Contrib]/physics/physics.js", "[Contrib]/siunitx/siunitx.js", "[MathJax]/extensions/TeX/cancel.js"],
+   extensions: ["tex2jax.js", "[Contrib]/mhchem/mhchem.js", "[Contrib]/physics/physics.js", "[Contrib]/siunitx/siunitx.js", "[MathJax]/extensions/TeX/cancel.js", "[MathJax]/extensions/TeX/color.js"],
    tex2jax: {
      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
@@ -49,6 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     nind: "\\perp\\! \\! \\! \\perp \\! \\! \\! \\! \\! \\!/ \\ \\",
                     cov: ["\\text{Cov}\\left( #1 \\right )", 1],
                     Bin: "\\text{Bin}",
+                    Bind: ["\\binom{#2}{#3} {#1}^{#3}(1 - #1)^{#2 - #3}", 3],
                     sample: ["#1_1,...,#1_{#2}", 2],
                     P: ["\\mathbb{P}\\left( #1 \\right)", 1],
                     E: ["\\mathbb{E}\\left( #1 \\right)", 1],
@@ -126,7 +127,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Lam: "\\Lambda",
                     Ups: "\\Upsilon",
                     Om: "\\Omega",
-                    Sig: "\\Sigma"}}
+                    Sig: "\\Sigma",
+                    orange: ["{\\color{orange} #1}", 1],
+                    brown: ["{\\color{brown} #1}", 1],
+                    blue: ["{\\color{blue} #1}", 1],
+                    green: ["{\\color{green} #1}", 1],
+                    purple: ["{\\color{purple} #1}", 1],
+                    red: ["{\\color{red} #1}", 1],
+                    pink: ["{\\color{pink} #1}", 1],
+                    gray: ["{\\color{gray} #1}", 1],
+                    black: ["{\\color{black} #1}", 1]}}
  });
 </script>
 <script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
