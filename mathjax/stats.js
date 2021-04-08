@@ -18,10 +18,11 @@
 
 
 
-MathJax.Hub.Register.StartupHook("TeX Jax Ready", function () {
-  MathJax.InputJax.TeX.Definitions.Add({
-    macros: {
-      card: ["Macro", "{\\text{card}\\left( #1 \\right)}", 1]
-    }
-  });
-});
+ MathJax.Hub.Register.StartupHook("TeX Jax Ready", function () {
+   MathJax.InputJax.TeX.Definitions.Add({
+     macros: {
+       card: ["Macro", "{\\text{card}\\left( #1 \\right)}", 1]
+     }
+   });
+ });
+ MathJax.Ajax.loadComplete("https://writerthethinker1.github.io/relax_write/mathjax/stats.js");
