@@ -6,6 +6,8 @@ summary: "Just some common notation for expressing ideas in statistics..."
 published: true
 ---
 
+{% include toc.html %}
+
 All other macros are given in this post, just check the .md file for this musing to see what to type to render them in mathjax. Happy typing, hope it's relaxing. Macros make life easier. These are the macros used often in statistics but not included in mathjax.
 
 ### Random variables
@@ -33,32 +35,75 @@ $$
 $$
 
 
-**Note on vertical conditioning bar: the macro for it is `\up` and `\bigup` if you want a larger size. The one on the keyboard will be treated as part of a markdown table, so don't use it, the page won't be made correctly.**
+**Note on vertical conditioning bar '$\up$': the macro for it is `\up` and `\bigup` if you want a larger size. The one on the keyboard will be treated as part of a markdown table, so don't use it, the page won't be made correctly.**
 
 ### Distributions and Summary Statistics
 
-Many of the commonly used distributions in statistics are there in macro form to make typing easy. There's `\Bin` for binomial distribution, `\N` for the normal distribution, `\geom` for the geometric distribution, `\pois` for the poisson distribution, `\bern` for the Bernoulli distribution, `\gam` for the gamma distribution, `\Beta` for the beta distribution, `\expo` for the exponential distribution, `\hypgeo` for the hypergeometric distribution, `\nbin` for the negative binomial distribution, `\cauchy` for the Cauchy distribution, `\pareto` for the Pareto Distribution. The distributions are given in form below as they appear in a post or page...
+Many of the commonly used distributions in statistics are there in macro form to make typing easy. There's `\bern` for the bernoulli distribution, `\Bin` for binomial distribution, `\dunif` for the discrete uniform distribution, `\geom` for the geometric distribution, `\hypgeo` for the hypergeometric distribution, `\nbin` for the negative binomial distribution, `\pois` for the poisson distribution, `\Beta` for the beta distribution, `\cauchy` for the Cauchy distribution, `\chisq{..}` for the chisquare distribution, `dexp` for the double exponential (laplace) distribution, `\expo` for the exponential distribution, `\F` for the F distribution, `\gam` for the gamma distribution, `\logis` for the logistic distribution, `\lognorm` for the log-normal distribution, `\N` for the normal distribution, ,  `\bern` for the Bernoulli distribution, `\gam` for the gamma distribution,`\paret` for the Pareto Distribution, `t` for the $t$-distribution, `\unif` for the continuous uniform distribution, and `\weib` for the Weibull Distribution. The distributions are given in form below as they appear in a post or page...
 
 $$
-\Bin \ \ \N \ \ \geom \ \ \pois \ \ \bern \ \ \gam \ \ \Beta \ \ \expo \ \ \hypgeo \ \ \nbin \ \ \cauchy \ \ \pareto
+\bern \ \ \Bin \ \ \dunif \ \ \geom \ \ \hypgeo \\ \nbin \ \ \pois \ \ \Beta \ \ \cauchy \ \ \chisq{\alpha} \ \ \dexp \ \ \expo \ \ \F \\ \gam \ \ \logis \ \ \lognorm \ \ \N \ \ \paret \ \ t \ \ \unif \ \ \weib
 $$
 
-We have also included macros for the p.d.fs and c.d.fs for the distributions given above for easy typing. For example, the density of the binomial distribution is given as
+There are also included macros for **pdfs, expected values, variance, moment generating functions, and (some) cdfs** for the 21 distributions named. The general form to access them is using the distribution macro name given above and adding the suffixes `d`, `ex`, `var`, `mgf`, and `cd` and inputing both the variable as well as function parameters for the form. For a function written as $f(x\up \alpha, \beta, \gamma)$ as a pdf, we input first $x$, then in order the other letters after the conditional sign. We leave an example for the exponential distribution below, for each entry we used `\expo`, `\expod`, `\expoex`, `\expovar`, `\expomgf`, `\expocd` as well the the parameters `x`, `t`, and `\beta`:
+
+#### Exponential function (example)
 
 $$
-\Bind{p}{n}{x}
+\text{Name: } \expo \ \ \ f(x|\beta) = \expod{x}{\beta} \ \ \ \E{X} = \expoex{\beta} \ \ \ \Var{X} = \expovar{\beta} \ \\ M_{X}(t) = \expomgf{t}{\beta} \ \ \ F(x|\beta) = \expocd{x}{\beta}
 $$
 
-and we can have 1 value of it with $n = 20$, $p = 0.3$, and $x = 3$ as
+with the latex code as
+
+```
+$$
+\text{Name: } \expo \ \ \ f(x|\beta) = \expod{x}{\beta} \ \ \
+\E{X} = \expoex{\beta} \ \ \ \Var{X} = \expovar{\beta} \
+\\ M_{X}(t) = \expomgf{t}{\beta} \ \
+\ F(x|\beta) = \expocd{x}{\beta}
+$$
+```
+
+For functions that don't have moment generating functions but do have n-th moments, we illustrate the n-th moment macro below for the log-normal distribution, simply put a `nm` after the distribution name:
+
+#### Log-norm n-th moment example
 
 $$
-f(3) = \Bind{0.3}{20}{3}
+\E{X^n} = \lognormnm{n}{\mu}{\sig}
 $$
+
+with code `\lognormnm{n}{\mu}{\sig}`. If we know the values given, we can write
+
+$$
+\E{X^n} = \lognormnm{n}{\cdot 1}{2}
+$$
+
+**Using numerical input:** If you want to use numerical input, make sure you specify all multiplication operations to make things eaiser to read. In the above we used `\lognormnm{n}{\cdot 1}{2}` and had to input for the moment number `\cdot 1` to make things easier to read.
+
+when $\mu = 1$ and $\sigma = 2$.
+
+Most information of the distributions is given from [this](http://www.stat.rice.edu/~dobelman/courses/texts/distributions.c&b.pdf) handout. Check it out if you want to verify the formulas.
+
+---
+
+In addition the error functon (in integral form) is also included...
+
+$$
+\erf{x}
+$$
+
+with latex as `\erf{x}`.
 
 For summary statistics like those in the Tukey's 5 number summary, we have the macros `\fqt`, `\iqr`, `\Min`, `\Max`, `\tqt`, `\Med` as well as the mode with `\mode` and general quantile `\qt{..}{..}`. All of which give respectively:
 
 $$
-\fqt \ \ \iqr \ \ \Min \ \ \Max \ \ \tqt \ \ \med \ \ \mode \ \ \qt{\chi^2}{\alpha} \ \ \qt{X}{0.75}
+\fqt \ \ \iqr \ \ \Min \ \ \Max \ \ \tqt \ \ \med \ \ \mode \ \ \qt{\chisq{3}}{,0.4} \ \ \qt{X}{0.75}
 $$
 
 For order statistics, there is `\ord{..}{..}` that gives $\ord{Y}{5}$.
+
+---
+
+### Wrapping Up...
+
+This wraps up the statistics macros for the site. These aren't part of any latex packages so only for here using jekyll blogs or the mathjax macros given here. There might be a giant .js file that works much like the physics.js file to load all the macros for the physics stuff. It doesn't change functionality, but makes the configuration nicer to read.

@@ -54,9 +54,9 @@ which is the opposite of $Z$ by itself. Neat, right?
 Which is why I sometimes call $\sor$ and $\sand$ *set-or* and *set-and* inside my head at times. As a bonus, consider the *logical sets* $A = \set{a = 0 \text{ or } 1}$, $B = \set{b = 0 \text{ or } 1}$ and $C = \set{c = 0 \text{ or } 1}$ where
 
 $$
-\P(a = 1) = \alpha \ \ \ \P(a = 0) = \beta \\
-\P(b = 1) = \gamma \ \ \ \P(b = 0) = \delta \\
-\P(c = 1) = \alpha' \ \ \ \P(c = 0) = \beta'
+\P{a = 1} = \alpha \ \ \ \P{a = 0} = \beta \\
+\P{b = 1} = \gamma \ \ \ \P{b = 0} = \delta \\
+\P{c = 1} = \alpha' \ \ \ \P{c = 0} = \beta'
 $$
 
 Then, the statement $(A \sor B) \sand C$. The valuation is the truth! Either 0 or 1. And we read the statement as *the elements both in C and either in A or B* which logically is *the elements either in A and C or B and C*. Using sets, we can do logic and logic we can do sets as well. We also just mixed some probability theory with set theory. It's just relating subjects with each other, something that makes the one you're learning right now more enjoyable and creative. It also helps with memory and a calming zen feel.
