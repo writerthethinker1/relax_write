@@ -13,7 +13,7 @@ function compose() {
   templates=("articles.md" "books.md" "coding.md" "disc_solutions.md" "exam_solutions.md" "extra_things.md" "labs.md" "practice_solutions.md" "quiz_solutions.md" "study_guides.md" "week_notes.md" "announcements.md" "discussion.md" "final_scores.md" "lab_scores.md" "midterm_scores.md" "musings.md" "practice_scores.md" "practice.md" "quiz_scores.md")
 
 
-  for i in {1.."${#topics[@]}"} #note: the '#' shows no. of elements
+  for i in {1.."${#topics[@]}"} #note: the '#' shows no. of elements, need to for the loop paths...
   do
   	if [ $1 = "${topics[$i]}" ]; then
 

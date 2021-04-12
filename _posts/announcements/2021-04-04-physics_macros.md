@@ -6,6 +6,8 @@ summary: "Just some math and physics macros!"
 published: true
 ---
 
+{% include toc.html %}
+
 ### Item wrapping
 
 If you're interested in wrapping items in parenthesis, no matter how big, use the `\pqty{..}` macro to do so. For example,
