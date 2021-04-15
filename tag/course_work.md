@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Coursework Announcements"
-tag: coursework
+tag: "coursework"
 ---

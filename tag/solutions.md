@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Solution Announcements"
-tag: solutions
+tag: "solutions"
 ---

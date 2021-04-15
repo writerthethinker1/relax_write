@@ -3,21 +3,28 @@ structure:
 
 - title: 'Syllablus: Read it Here!'
   url: course_files/syllabus
+  show: true
 
 - title: Discussions
   url: course_files/discussions
+  show: true
 
 - title: Notes
   url: course_files/notes
+  show: true
 
 - title: Practice
   url: course_files/practice
+  show: true
 
 - title: Musings
   url: course_files/musings
+  show: true
 
 - title: 'Relax a Little'
   url: course_files/calm_down
+  show: true
 
 - title: 'Your Scores'
   url: course_files/your_scores
+  show: true

@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Office Hours Announcements"
-tag: office_hours
+tag: "office_hours"
 ---

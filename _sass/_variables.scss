@@ -32,25 +32,24 @@ $viewport-medium: 48em;
 $viewport-large: 64em;
 
 // Colors
-$blue: #0076df !default;
-$red: #f95020 !default;
-$green: #00cf26 !default; //#00cf26
-$yellow: #efcc00 !default;
-$orange: #DFA668 !default;
-$purple: #9780D5 !default; //#9F94E9
-$dark-blue: #00369f !default;
-$green: #77CD5F !default;
-$dark-green: #009f06 !default;
-$light-pink: #ffdddd !default;
-$light-green: #ddffdd !default;
-$dark-gray: #333 !default;
-$mid-gray: #777 !default;
-$light-gray: #ccc !default;
-$lighter-gray: #eee !default;
-$darken-1: rgba(#000,.0625) !default;
-$darken-2: rgba(#000,.125) !default;
-$darken-3: rgba(#000,.25) !default;
-$darken-4: rgba(#000,.5) !default;
+$blue: #0076df !default; //a classic...
+$red: #EE543B !default;
+$green: #72CB5B !default; //#00cf26
+$yellow: #D7CC3D !default;
+$orange: #F9A037 !default;
+$purple: #9780D5 !default;
+$dark-blue: #5972F9 !default;
+$dark-green: #63B150 !default;
+$light-pink: #DB68E1 !default;
+$light-green: #89DF70 !default;
+$dark-gray: #333 !default; //keep as it is...
+$mid-gray: #777 !default; //keep as it is...
+$light-gray: #ccc !default; //keep as it is...
+$lighter-gray: #eee !default; //keep as it is...
+$darken-1: rgba(#000,.0625) !default; //keep as it is...
+$darken-2: rgba(#000,.125) !default; //keep as it is...
+$darken-3: rgba(#000,.25) !default; //keep as it is...
+$darken-4: rgba(#000,.5) !default; //keep as it is...
 
 // Links
 $link-color: $blue; //pick any colour you wish, i left blue there, but others work too
