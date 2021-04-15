@@ -1,4 +1,4 @@
-before# Pixyll.classes: pixylled for learning!
+Pixyll.classes: pixylled for learning!
 
 All adapted from [pixyll.com](http://www.pixyll.com) by [johno](https://johno.com). Check his original blog out! You can see other customization features there too! Social icons, formatting and other technical things.
 
@@ -53,7 +53,7 @@ Once you have the site ready to go, up and running locally, you can make it your
 
 We'll walk you though this step by step. You'll find everything to change in the first couple of lines of the `_config.yml` as given below
 
-![customization]({{ site.images | relative_url }}customize_site.jpg)
+![customization](./images/customize_site.jpg)
 
 The second line has the title of the site, what you'd like be in the top left corner to let others see which class they are in; it's also a home button as well. The third line as your email that you can use as reference when making posts or telling people more about yourself by writing `[email_link_name]({{ site.email }})`. The fourth one has the author or writer of the site, feel free to put your name there, *just make sure to have your name be in the `''`*. The fifth line has the description of the site, you can adapt it to your needs and change it.
 
@@ -79,9 +79,9 @@ You can always delete the files (sample articles and images) and suit to your ow
 
 ### Changing Highlight Colours for Links (mood, own style)
 
-You can change the highlight colour for the site too! It comes with <span style="color:#0076df">blue</span> as the default colour. If you want to change the colour to the other presets there are such as green, red, yellow, and others, you just have to go to `./_sass/_variables.scss` and change the `$link-color: $blue;` to the colour you'd like. If it's green, then you'd write `$link-color: $green;` and then it's green, the highlight color. The total colours that available are: `$blue`, `$red`,`$green`, `$purple`, `$dark-blue`, `$light-green`, `$light-pink`, `$light-green`, `$dark-gray`, `$mid-gray`, `$light-gray`, and `$lighter-gray`. The part to change is given below:
+You can change the highlight colour for the site too! It comes with <span style="color:#0076df">blue</span> as the default colour. If you want to change the colour to the other presets there are such as green, red, yellow, and others, you just have to go to `./_sass/_variables.scss` and change the `$link-color: $blue;` to the colour you'd like. If it's green, then you'd write `$link-color: $green;` and then it's green, the highlight color. The total colours that available are: `$blue`, `$red`,`$green`, `$purple`, `$dark-blue`, `$light-green`, `$light-pink`, and `$light-green`. The part to change is given below:
 
-![highlight colour]({{ site.images }}/color_scss.jpg)
+![highlight colour](./images/color_scss.jpg)
 
 ### Composing .md Files (various locations)
 
