@@ -1,6 +1,6 @@
 notes_list_title: 'Notes'
 structure:
-  
+
 # also the 'type' feature in the files in the _markdown_notes folder has to match the 'reference' part here for the file to show up in the right page, don't leave it out, the example files given all have them.
 
 # if your class doesn't use some of the things here, like labs, extra things or coding, change the truth value in the 'show:' part of the yml to 'false'

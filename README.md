@@ -1,4 +1,4 @@
-Pixyll.classes: pixylled for learning!
+Pixyll.relax_write: relax, learn, have a class website...
 
 All adapted from [pixyll.com](http://www.pixyll.com) by [johno](https://johno.com). Check his original blog out! You can see other customization features there too! Social icons, formatting and other technical things.
 
@@ -100,6 +100,38 @@ and when you write the topic in the `compose .. ..` part on a terminal you can p
 > compose exam_solutions final_spring
 
 and the file `2021-04-12-final_spring.md` will appear in the `./materials/course_files/notes/exam_solutions` folder. *Just make sure to type out the topics in the block-quote exactly, the code will prompt you if there's an error.*
+
+### How can i add info in 'about me', 'mail me'?
+
+You can edit the files contained in the `./about/` folder to edit information that appears. You'll find two files `about.md` and `contact.md` that are editable.
+
+### Linking to announcements
+
+You can link to any announcement by using the format
+
+```
+[link_name]({{ site.baseurl }}{% post_url post_title_no_extension %})
+```
+
+if you want to reference them. The option is there...
+
+### Can there be a table of contents?
+
+Yes! You can make a table of contents by adding `{% include toc.html %}` to the beginning of the post. For an announcement, you might write:
+
+```
+---
+layout: post
+title: "Statistics Macros"
+date: "2021-04-04"
+summary: "Just some common notation for expressing ideas in statistics..."
+published: true
+---
+
+{% include toc.html %}
+```
+
+To make one appear...
 
 ### Putting images in announcements or lectures
 
