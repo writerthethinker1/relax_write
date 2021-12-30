@@ -3,10 +3,9 @@ layout: post
 title: "Colours & Canceling Expressions"
 date: "2021-04-08"
 summary: "Cool ways mathjax has to make illustrating concepts easier!"
+contents: true
 published: true
 ---
-
-{% include toc.html %}
 
 Just some ways to make math easier to explain and show others as well. This page focuses on coloring math as well as striking out terms in equations to make it easier to explain steps in problems.
 

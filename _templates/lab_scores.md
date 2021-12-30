@@ -3,6 +3,7 @@ layout: post
 title: "Lab Scores Title"
 type: "lab_scores"
 date: "year-month-day"
+contents: false
 published: true
 ---
 

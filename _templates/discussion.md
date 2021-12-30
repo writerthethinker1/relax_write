@@ -2,6 +2,7 @@
 layout: post
 title: "Discussion Title"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

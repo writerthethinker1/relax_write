@@ -3,10 +3,9 @@ layout: post
 title: "Statistics Macros"
 date: "2021-04-04"
 summary: "Just some common notation for expressing ideas in statistics..."
+contents: true
 published: true
 ---
-
-{% include toc.html %}
 
 All other macros are given in this post, just check the .md file for this musing to see what to type to render them in mathjax. Happy typing, hope it's relaxing. Macros make life easier. These are the macros used often in statistics but not included in mathjax.
 

@@ -3,6 +3,7 @@ layout: post
 title: "Discussion Solutions Title"
 date: "year-month-day"
 type: "discussion_stuff"
+contents: false
 published: false
 ---
 

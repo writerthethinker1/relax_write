@@ -3,6 +3,7 @@ layout: post
 title: "Extra Things Title"
 date: "year-month-day"
 type: "extra_things"
+contents: false
 published: false
 ---
 

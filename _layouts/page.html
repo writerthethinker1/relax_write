@@ -6,6 +6,11 @@ layout: default
     <h1 class="h1">{{ page.title }}</h1>
   </header>
   <article class="post-content">
-  {{ content }}
+    <div>
+      <span>
+      {% include toc.html html=content %}
+    {{ content }}
+    </span>
+    </div>
   </article>
 </div>

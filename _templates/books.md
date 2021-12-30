@@ -3,6 +3,7 @@ layout: post
 title: "Books Title"
 date: "year-month-day"
 type: "book"
+contents: false
 published: false
 ---
 

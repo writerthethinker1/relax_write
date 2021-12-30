@@ -3,6 +3,7 @@ layout: post
 title: "Quiz scores Title"
 type: "quiz_scores"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

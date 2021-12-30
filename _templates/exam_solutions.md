@@ -3,6 +3,7 @@ layout: post
 title: "Exam Solutions Title"
 date: "year-month-day"
 type: "exam_solutions"
+contents: false
 published: false
 ---
 

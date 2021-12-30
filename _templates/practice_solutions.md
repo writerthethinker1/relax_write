@@ -3,6 +3,7 @@ layout: post
 title: "Practice Solutions Title"
 date: "year-month-day"
 type: "practice_solutions"
+contents: false
 published: false
 ---
 

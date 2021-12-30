@@ -3,6 +3,7 @@ layout: post
 title: "Week Notes Title"
 date: "year-month-day"
 type: "week_notes"
+contents: false
 published: false
 ---
 

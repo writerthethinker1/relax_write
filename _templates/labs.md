@@ -3,6 +3,7 @@ layout: post
 title: "Labs Title"
 date: "year-month-day"
 type: "labs"
+contents: false
 published: false
 ---
 

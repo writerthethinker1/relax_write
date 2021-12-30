@@ -32,8 +32,15 @@ layout: default
   </span>
 </div>
 <article class="post-content">
+  <div>
+    <span>
+    {% include toc.html html=content %}
   {{ content }}
+  </span>
+  </div>
 </article>
+
+
 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}

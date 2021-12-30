@@ -4,10 +4,7 @@ title: Materials
 permalink: /materials/
 ---
 
-
-There are some things and files you'll need...
-
-<span style="color:orange">Please get them! *This course only comes once!*</span>
+<span style="color:orange">Please get your course materials!</span>
 
 ---
 

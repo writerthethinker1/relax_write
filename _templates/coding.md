@@ -3,6 +3,7 @@ layout: post
 title: "Coding Title"
 date: "year-month-day"
 type: "coding"
+contents: false
 published: false
 ---
 

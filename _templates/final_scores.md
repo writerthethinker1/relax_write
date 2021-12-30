@@ -3,6 +3,7 @@ layout: post
 title: "Finals title"
 type: "final_scores"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

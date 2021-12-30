@@ -3,6 +3,7 @@ layout: post
 title: "Article Title"
 date: "year-month-day"
 type: "article"
+contents: false
 published: false
 ---
 

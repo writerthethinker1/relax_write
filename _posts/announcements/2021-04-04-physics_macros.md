@@ -3,10 +3,9 @@ layout: post
 title: "Math & Physics Macros"
 date: "2021-04-04"
 summary: "Just some math and physics macros!"
+contents: true
 published: true
 ---
-
-{% include toc.html %}
 
 ### Item wrapping
 

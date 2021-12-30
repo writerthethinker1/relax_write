@@ -3,10 +3,9 @@ layout: post
 title: "Coding in Site"
 date: "2021-04-16"
 summary: "A brief page about embedding code and supported languages..."
+contents: true
 published: true
 ---
-
-{% include toc.html %}
 
 ## Writing Code
 

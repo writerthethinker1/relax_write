@@ -2,6 +2,7 @@
 layout: post
 title: "Practice Problems Title"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

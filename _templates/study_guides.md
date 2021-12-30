@@ -3,6 +3,7 @@ layout: post
 title: "Study Guides Title"
 date: "year-month-day"
 type: "study_guides"
+contents: false
 published: false
 ---
 

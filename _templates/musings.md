@@ -2,6 +2,7 @@
 layout: post
 title: "Musings Title"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

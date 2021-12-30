@@ -4,6 +4,7 @@ title: "Announcement Title"
 date: "year-month-day"
 summary: "my summary of post for homepage, leave double quotes on..."
 tag: "your_tag"
+contents: false
 published: false
 ---
 

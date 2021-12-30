@@ -3,6 +3,7 @@ layout: post
 title: "Practice Scores title"
 type: "practice_scores"
 date: "year-month-day"
+contents: false
 published: false
 ---
 

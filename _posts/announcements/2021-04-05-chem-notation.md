@@ -3,12 +3,9 @@ layout: post
 title: "Chemistry Notation Latex"
 date: "2021-04-05"
 summary: "Notes for chemistry notation, also links for later reference..."
+contents: true
 published: true
 ---
-
-<!-- put line in any post that's lengthy or with many headings... -->
-{% include toc.html %}
-<!-- delete if not... -->
 
 We also have chemistry notation via *mhchem* for writing various chemical equations. A full illustration of the various types of equations you can make are given in [this](https://mhchem.github.io/MathJax-mhchem/) page. Read it if you are stuck or need more references for the types of things you want to write. We'll be going over the basics to writing chemistry equations.
 
