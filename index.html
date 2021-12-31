@@ -4,7 +4,8 @@ layout: default
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
-    <h2><b>Announcements!</b> | <a href="{{ site.baseurl }}/tags">+All Tags!</a></h2>
+    <span style="font-size:30px;color:orange"><b><i>Announcements!</i></b></span>
+
   {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}

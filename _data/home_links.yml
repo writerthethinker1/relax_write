@@ -6,8 +6,11 @@ structure:
 - title: 'Materials'
   url: 'materials/'
 
-- title: 'About Me'
+- title: 'Tags'
+  url: 'tags/'
+
+- title: 'About'
   url: 'about/'
 
-- title: 'Mail Me'
+- title: 'Mail'
   url: 'contact/'
